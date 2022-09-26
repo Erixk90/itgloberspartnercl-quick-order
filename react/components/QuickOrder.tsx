@@ -50,7 +50,7 @@ const QuickOrder = () => {
     const searchProduct = (evt:any) => {
         evt.preventDefault();
         if(!inputText){
-            alert('dal dale')
+            alert('Tienes que seleccionar un SKU')
         }else{
             console.log('Su busqueda es:', inputText)
             setSearch(inputText)

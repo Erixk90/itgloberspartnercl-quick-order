@@ -47,3 +47,10 @@
     background-color: var(--buttons-descriptions);
     border-radius: 12px;
 }
+
+.form__quickorderButton:hover{
+    background-color: var(--borders-buttons);
+    color: #fff;
+    cursor: pointer;
+    transition: 1000;
+}
