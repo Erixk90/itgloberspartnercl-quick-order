@@ -1,0 +1,49 @@
+.title__quickorder{
+    color: var(--title-color);
+    font-weight: 700;
+
+
+}
+
+.container__quickorder{
+    width: 100%;
+}
+
+.container__quickorderChildren{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__quickorderForm{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.form__quickorderLabel{
+    color: #5a5a5a;
+}
+
+.form__quickorderInputText{
+
+    width: 45%;
+    border: 1px solid var(--borders-buttons);
+    border-radius: 5px;
+
+}
+
+
+.form__quickorderButton {
+    width: 50vw;
+    height: 6vh;
+    margin: 12px;
+    border: none;
+    color: #e5e5e5;
+    background-color: var(--buttons-descriptions);
+    border-radius: 12px;
+}
