@@ -4,16 +4,7 @@ import  UPDATE_CART from '../graphql/updateCart.graphql'
 import GET_PRODUCT from '../graphql/getProductBySku.graphql'
 import styles from './styles.css'
 
-const QuickOrder = (/*{ blockClass }: { blockClass: string }*/) => {
-
-  /*  const container__quickorder = generateBlockClass(styles.container, blockClass)
-    const container__quickorderChildren = generateBlockClass(styles.container__quickorderChildren, blockClass)
-    const title__quickorder = generateBlockClass(styles.title__quickorder, blockClass)
-    const form__quickorder = generateBlockClass(styles.form__quickorder, blockClass)
-    const container__quickorderForm = generateBlockClass(styles.container__quickorderForm, blockClass)
-    const form__quickorderLabel = generateBlockClass(styles.form__quickorderLabel, blockClass)
-    const form__quickorderInputText = generateBlockClass(styles.form__quickorderInputText, blockClass)
-    const input__quickorderButton = generateBlockClass(styles.input__quickorderButton, blockClass)*/
+const QuickOrder = () => {
 
     const [inputText, setInputTex] = useState('')
     const [search, setSearch] = useState('')
@@ -30,7 +21,6 @@ const QuickOrder = (/*{ blockClass }: { blockClass: string }*/) => {
     useEffect(() => {
         console.log('el resultado es ', product, search)
         if(product){
-            //const{ productId}= product.product
         let skuId = parseInt(inputText)
         addToCart ({
             variables:{
