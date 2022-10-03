@@ -54,3 +54,6 @@
     cursor: pointer;
     transition: 1000;
 }
+.form__quickorder{
+ color: #5a5a5a;
+}
